@@ -1,0 +1,447 @@
+.search_view{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.search_view_element{
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    text-align: center;
+    font-size: 10px;
+}
+
+form{
+    display: inline-block;
+}
+
+.album_img{
+    height: 200px;
+    width: 100px;
+}
+
+#header_iniziale{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 100vw;
+
+
+    border-bottom: 1px solid #eaeaea;
+
+}
+
+#barra{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+
+}
+
+.hidden{
+    display: none;
+}
+
+#x{
+        width: 21px;
+        height: 12px;
+}
+
+.container_h_in{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.item_h_in_img{
+    background-image: url(https://www.mysocialweb.it/wp-content/uploads/2018/01/mysocialweb-logo-386x44.png);
+    background-size: cover;
+    width: 386px;
+    height: 44px;
+}
+
+.container_h_in a{
+    color: #FF2828;
+}
+
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#blocco_principale{
+    width: 50%;
+}
+
+.titolo{
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(75, 79, 88);
+}
+
+#secondo_titolo{
+    text-align: center;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: rgb(75, 79, 88);
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+#blocco_secondario{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.colonna_secondario{
+    display: none;
+}
+
+.riga{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.immagine{
+    width: 293px;
+    height: 165px;
+    background-image: url(https://www.mysocialweb.it/wp-content/uploads/2024/03/modifiche-pagina.webp);
+    background-size: cover;
+    border-top-left-radius: 6px;  
+    border-top-right-radius: 6px;
+}
+
+.item_riga{
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    width: 293px;
+    box-sizing: border-box;
+    box-shadow: rgba(16, 24, 40, 0.05) 0px 6px 15px -2px;
+    margin-bottom: 20px;
+}   
+
+.item_riga h1{
+    font-size: 23px;
+}
+
+#barra_scorrimento{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.flex_scorrimento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-right: 30%;
+}
+
+.flex_scorrimento #succ{
+    margin-left: 100px;
+    width: 200px;
+
+}
+
+.link_scorrimento {
+    width: 2.333em;
+    height: 2.333em;
+    text-align: center;
+    line-height: calc(2.333em - 3px);
+}
+
+.link_scorrimento:hover {
+    background-color: #FF2828;
+    width: 2.333em;
+    height: 2.333em;
+    text-align: center;
+    line-height: calc(2.333em - 3px);
+    color: white
+}
+
+.link_scorrimento a:hover{
+    color: #cf2e2e;
+}
+
+footer{
+    background-color: #16171b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 10vh;
+    width: 100vw;
+
+}
+
+#flex_f1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+    margin-top: -5%;
+    margin-bottom: 3%;
+}
+
+#flex_f1 .footer_item{
+
+    color: white;
+    padding-left: 5.67em;
+    
+
+}
+
+#flex_f2{
+    width: 100vw;
+
+    border-top: 1px #eaeaea solid;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;    
+}
+
+#flex_f1 p, #flex_f2 p{
+    color: white;
+    font-size: 14px;
+}
+
+.hm{
+        font-weight: 700;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: rgb(75, 79, 88);
+    line-height: 25px;
+}
+
+h1{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+
+}
+
+#next_button{
+    border-radius: 100%;
+    border: none;
+    z-index: 1;
+    background-color: rgba(17, 86, 225, 0.7);
+    margin-top: 25%;
+    margin-left: 86%;
+    width: 40px;
+    height: 40px;
+
+}
+
+#previous_button{ 
+    border-radius: 100%;
+    border: none;
+    z-index: 1;
+    background-color: rgba(17, 86, 225, 0.7);
+    margin-top: 25%;
+    margin-left: 1%;
+    width: 40px;
+    height: 40px;
+}
+
+#next_button:hover, #previous_button:hover{
+    background-color: rgba(17, 225, 201, 0.7);
+}
+
+#next_button:active, #previous_button:active{
+    background-color: rgba(225, 17, 73, 0.7);
+}
+
+@media (max-width: 400px){
+        .item_h_in{display: none;}
+
+        body{
+            width: 400px;
+        }
+
+        .container_h_in{
+            width: 100vw;
+        }
+
+        #header_iniziale{
+            width: 400px;
+            height: 70px;
+        }
+
+        .container_img{
+            width: 240.33px;
+            height: 69px;
+            display: flex;
+        }
+
+        .item_h_in_img{
+
+            margin-top: 22px;
+            background-size: cover;
+            width: 202px;
+            height: 23.02px;                    
+
+        }
+        #blocco_principale{
+            width: 360px;
+        }
+
+        .riga{display: none;}
+
+        .colonna_secondario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            flex-direction: column;
+        }
+
+        .item_colonna{
+            display: flex;
+            flex-direction: column;
+            border-radius: 6px;
+            width: 360px;
+            box-sizing: border-box;
+            box-shadow: rgba(16, 24, 40, 0.05) 0px 6px 15px -2px;
+            margin-bottom: 20px;
+        }
+
+        .immagine{
+            width: 360px;
+            height: 202.5px;
+            background-size: cover;
+            border-top-left-radius: 6px;  
+            border-top-right-radius: 6px;
+        }
+
+        .item_colonna p, .item_colonna h1{
+            width: 360px;
+        }
+
+        .item_colonna h1{
+            font-size: 20px;
+        }
+
+        #blocco_principale .titolo{
+            font-size: 30px;
+        }
+
+        #blocco_principale .secondo_titolo{
+            font-size: 25px;
+        }
+
+        #blocco_principale p{
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        footer{
+            width: 400px;
+            height: 651.23px;
+        }
+
+        #flex_f1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 357.875px;
+            height: 486.234;
+
+        }
+
+        .footer_item{
+
+            width: 357.875px;        
+        
+        }
+
+        #flex_f1 .footer_item{
+
+            margin-right: 90px;       
+        
+        }
+
+        #flex_f1 .footer_item .hm{
+            text-align: center;
+        }
+
+        #flex_f1 .footer_item .text{
+            font-size: 12px;
+            line-height: 17px;
+        }
+
+        #flex_f2{
+            width: 357.875px;
+        }
+
+        #flex_f2 .footer_item{
+            margin-left: 35px;
+        }
+
+        #barra_scorrimento{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .flex_scorrimento{
+            align-items: center;
+            justify-content: center;
+            width: 360px;
+            height: 68.09px;
+            margin-left: 90px;
+        }
+
+        .link_scorrimento{
+            width: 34.5px;
+            height: 34.5px;
+        }
+
+        .link_scorrimento a:hover{
+            color: white;
+        }
+}
+
